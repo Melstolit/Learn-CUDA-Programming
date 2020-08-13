@@ -15,6 +15,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_debug_profiling", "05_de
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_debug_with_vs", "..\05_debug_profiling\05_debug_with_vs\05_debug_with_vs.vcxproj", "{EB158E92-146D-4600-ADF5-524B87D51D50}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_multigpu", "06_multigpu", "{ACDF0DA4-C53E-45B5-91A7-0E845BC7E3F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_gaussian_single_gpu", "..\06_multigpu\01_gaussian_single_gpu\01_gaussian_single_gpu.vcxproj", "{1D1EF42E-D8BD-4906-B06D-DFB8F33C358C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_streams", "..\06_multigpu\05_streams\05_streams.vcxproj", "{125B63BC-7B89-4750-ABE5-A100D8D3699E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07_parallel_programming_pattern", "07_parallel_programming_pattern", "{3EE523CC-233C-4A83-8C5C-E3EBB19C8435}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_sgemm_optimization", "..\07_parallel_programming_pattern\01_sgemm_optimization\01_sgemm_optimization.vcxproj", "{BBF4A70F-EFE9-4FC7-A529-E15937C587C2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_convolution", "..\07_parallel_programming_pattern\02_convolution\02_convolution.vcxproj", "{03E290CA-9555-4DAF-BBB3-2F75E4D80C12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -37,6 +49,22 @@ Global
 		{EB158E92-146D-4600-ADF5-524B87D51D50}.Debug|x64.Build.0 = Debug|x64
 		{EB158E92-146D-4600-ADF5-524B87D51D50}.Release|x64.ActiveCfg = Release|x64
 		{EB158E92-146D-4600-ADF5-524B87D51D50}.Release|x64.Build.0 = Release|x64
+		{1D1EF42E-D8BD-4906-B06D-DFB8F33C358C}.Debug|x64.ActiveCfg = Debug|x64
+		{1D1EF42E-D8BD-4906-B06D-DFB8F33C358C}.Debug|x64.Build.0 = Debug|x64
+		{1D1EF42E-D8BD-4906-B06D-DFB8F33C358C}.Release|x64.ActiveCfg = Release|x64
+		{1D1EF42E-D8BD-4906-B06D-DFB8F33C358C}.Release|x64.Build.0 = Release|x64
+		{125B63BC-7B89-4750-ABE5-A100D8D3699E}.Debug|x64.ActiveCfg = Debug|x64
+		{125B63BC-7B89-4750-ABE5-A100D8D3699E}.Debug|x64.Build.0 = Debug|x64
+		{125B63BC-7B89-4750-ABE5-A100D8D3699E}.Release|x64.ActiveCfg = Release|x64
+		{125B63BC-7B89-4750-ABE5-A100D8D3699E}.Release|x64.Build.0 = Release|x64
+		{BBF4A70F-EFE9-4FC7-A529-E15937C587C2}.Debug|x64.ActiveCfg = Debug|x64
+		{BBF4A70F-EFE9-4FC7-A529-E15937C587C2}.Debug|x64.Build.0 = Debug|x64
+		{BBF4A70F-EFE9-4FC7-A529-E15937C587C2}.Release|x64.ActiveCfg = Release|x64
+		{BBF4A70F-EFE9-4FC7-A529-E15937C587C2}.Release|x64.Build.0 = Release|x64
+		{03E290CA-9555-4DAF-BBB3-2F75E4D80C12}.Debug|x64.ActiveCfg = Debug|x64
+		{03E290CA-9555-4DAF-BBB3-2F75E4D80C12}.Debug|x64.Build.0 = Debug|x64
+		{03E290CA-9555-4DAF-BBB3-2F75E4D80C12}.Release|x64.ActiveCfg = Release|x64
+		{03E290CA-9555-4DAF-BBB3-2F75E4D80C12}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +73,10 @@ Global
 		{7F8CBF9B-C30E-40EC-959F-CFFA2641B015} = {676F3CC3-CF61-498F-A6D2-282B5C55246B}
 		{C7120CB6-F4A2-4F0F-BBFB-9E2425F3BECB} = {676F3CC3-CF61-498F-A6D2-282B5C55246B}
 		{EB158E92-146D-4600-ADF5-524B87D51D50} = {D52AF8A1-B2FE-4EB8-987F-CC20F9804EA0}
+		{1D1EF42E-D8BD-4906-B06D-DFB8F33C358C} = {ACDF0DA4-C53E-45B5-91A7-0E845BC7E3F8}
+		{125B63BC-7B89-4750-ABE5-A100D8D3699E} = {ACDF0DA4-C53E-45B5-91A7-0E845BC7E3F8}
+		{BBF4A70F-EFE9-4FC7-A529-E15937C587C2} = {3EE523CC-233C-4A83-8C5C-E3EBB19C8435}
+		{03E290CA-9555-4DAF-BBB3-2F75E4D80C12} = {3EE523CC-233C-4A83-8C5C-E3EBB19C8435}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6EC186C3-00D3-4291-870C-F4AA5F3E32BA}
