@@ -211,7 +211,7 @@ void generate_data(float *h_buffer, int num_row, int num_col)
 
 bool value_test(float *a, float *b, int length)
 {
-    float epsilon = 0.000001;
+    float epsilon = 0.000001f;
     bool result = true;
     for (int i = 0; i < length; i++)
         if (abs(a[i] - b[i]) >= epsilon)

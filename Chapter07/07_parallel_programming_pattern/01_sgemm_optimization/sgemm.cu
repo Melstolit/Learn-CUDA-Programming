@@ -81,7 +81,7 @@ void random_init(float *data, int length)
 
 bool value_test(float *a, float *b, int length)
 {
-    float epsilon = 0.000001;
+    float epsilon = 0.000001f;
     for (int i = 0; i < length; i++)
         if (abs(a[i] - b[i]) >= epsilon)
             return false;

@@ -60,6 +60,7 @@
       <TargetMachinePlatform>64</TargetMachinePlatform>
       <CodeGeneration>compute_61,sm_61</CodeGeneration>
       <PtxAsOptionV>true</PtxAsOptionV>
+      <Include>C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.2\common\inc</Include>
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
